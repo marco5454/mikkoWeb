@@ -27,8 +27,15 @@ header {
   padding-right: 30px;
 }
 
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 .header-container ul {
-  width: 40%;
+  width: 50%;
   height: 50%;
   display: flex;
   flex-direction: row;
@@ -41,6 +48,7 @@ header {
   font-size: 1.8rem;
   padding: 10px;
   transition: all 0.3s ease-in-out;
+  font-weight: 600;
 }
 
 .header-container ul li:hover {
@@ -53,5 +61,29 @@ header {
 }
 
 .header-container ul li a:hover {
-  color: rgb(156, 14, 14);
+  color: #ff004f;
+}
+
+.header-title {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5%;
+}
+
+.header-title p {
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+}
+
+.header-title h1 {
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+
+.header-title h1 span {
+  color: #ff004f;
 }
